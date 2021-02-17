@@ -1,6 +1,23 @@
-# bash-profile
-setup for my mac environment, 
+## Bash Profile Mac
+Setup for my mac environment, 
 
-inspired by https://dev.to/jeremyabbott/how-i-setup-my-new-mac-16gi
+Inspired by https://dev.to/jeremyabbott/how-i-setup-my-new-mac-16gi
 
-look at ./bash_profile
+Look at [bash_profile](https://github.com/MichaelDimmitt/bash-profile/blob/main/.bash_profile)
+
+## Additional Notes:
+How to install current, LTS, and a specific version of dotnet.
+grab the install script from [microsoft](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-install-script)
+
+```bash
+chmod u+x dotnet-install.sh
+./dotnet-install.sh -c Current # 5.0.102
+./dotnet-install.sh -c LTS # 2.1
+./dotnet-install.sh -c 2.2 
+```
+restart your terminal and run: dotnet --list-sdks
+
+```bash
+brew install nvm. 
+nvm install lts/*
+```
