@@ -21,3 +21,7 @@ restart your terminal and run: dotnet --list-sdks
 brew install nvm. 
 nvm install lts/*
 ```
+## alternative - use ASDF 
+https://github.com/emersonsoares/asdf-dotnet-core
+
+plugin list: https://asdf-vm.com/#/plugins-all
