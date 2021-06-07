@@ -25,3 +25,7 @@ nvm install lts/*
 https://github.com/emersonsoares/asdf-dotnet-core
 
 plugin list: https://asdf-vm.com/#/plugins-all
+
+## Next steps:
+once you have the bash shell, 
+get the emoji terminal - https://github.com/md-command-line/emoji-terminal
