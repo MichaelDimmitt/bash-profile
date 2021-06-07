@@ -1,6 +1,11 @@
 ## Bash Profile Mac
 Setup for my mac environment, 
 
+#### Change shell to bash:
+```bash
+chsh -s /bin/bash
+```
+
 Inspired by https://dev.to/jeremyabbott/how-i-setup-my-new-mac-16gi
 
 Look at [bash_profile](https://github.com/MichaelDimmitt/bash-profile/blob/main/.bash_profile)
@@ -29,3 +34,10 @@ plugin list: https://asdf-vm.com/#/plugins-all
 ## Next steps:
 once you have the bash shell, 
 get the emoji terminal - https://github.com/md-command-line/emoji-terminal
+
+## How to undo:
+
+#### Change shell to zsh:
+```bash
+chsh -s /bin/zsh
+```
